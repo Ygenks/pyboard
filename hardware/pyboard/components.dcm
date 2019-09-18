@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DMP2165UW
+K P-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/DMP2165UW.pdf
+$ENDCMP
+#
 $CMP MMA7660FC
 F https://www.nxp.com/docs/en/data-sheet/MMA7660FC.pdf
 $ENDCMP

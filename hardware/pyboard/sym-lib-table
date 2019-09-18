@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name components)(type Legacy)(uri ${KIPRJMOD}/components.lib)(options "")(descr ""))
+  (lib (name pyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/pyboard-rescue.lib)(options "")(descr ""))
 )
