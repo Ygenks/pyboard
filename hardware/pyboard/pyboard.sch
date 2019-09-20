@@ -151,17 +151,6 @@ Wire Wire Line
 Connection ~ 2600 9450
 $Comp
 L pyboard-rescue:STM32F405RGT6-components U?
-U 1 1 5D82FBBC
-P 4250 2800
-F 0 "U?" H 4250 4715 50  0000 C CNN
-F 1 "STM32F405RGT6" H 4250 4624 50  0000 C CNN
-F 2 "" H 4250 2650 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/dm00037051.pdf" H 4250 2650 50  0001 C CNN
-	1    4250 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L pyboard-rescue:STM32F405RGT6-components U?
 U 3 1 5D832E27
 P 4200 8050
 F 0 "U?" H 4175 8515 50  0000 C CNN
@@ -1913,8 +1902,8 @@ PC12-SDIO_CK
 Wire Wire Line
 	4900 4150 5650 4150
 Wire Wire Line
-	3600 4150 3000 4150
-Text Label 3000 4150 0    50   ~ 0
+	3600 4350 3000 4350
+Text Label 3000 4350 0    50   ~ 0
 PD2-SDIO_CMD
 Text Label 5250 4150 0    50   ~ 0
 PC13-X18
@@ -2308,4 +2297,15 @@ Wire Wire Line
 	2350 900  2350 800 
 Wire Wire Line
 	2350 2200 3600 2200
+$Comp
+L components:STM32F405RGT6 U?
+U 1 1 5D870B18
+P 4250 2800
+F 0 "U?" H 4250 4715 50  0000 C CNN
+F 1 "STM32F405RGT6" H 4250 4624 50  0000 C CNN
+F 2 "" H 4250 2650 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/dm00037051.pdf" H 4250 2650 50  0001 C CNN
+	1    4250 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
