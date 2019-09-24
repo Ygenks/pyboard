@@ -325,8 +325,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 6100 5150 6100
 Wire Wire Line
-	5950 6200 5950 6150
-Wire Wire Line
 	6550 6100 6550 6350
 Wire Wire Line
 	5450 6200 5450 6350
@@ -357,7 +355,6 @@ Wire Wire Line
 	5950 6150 6250 6150
 Wire Wire Line
 	6250 6150 6250 6700
-Connection ~ 5950 6150
 Connection ~ 6250 6700
 Wire Wire Line
 	6250 6700 6550 6700
@@ -422,7 +419,7 @@ Wire Wire Line
 Text Label 9600 10200 1    50   ~ 0
 USR-SW
 Text Label 9850 9450 0    50   ~ 0
-PB3-SW-X17
+SW
 Wire Wire Line
 	9600 9450 9600 9550
 $Comp
@@ -593,8 +590,6 @@ Text Label 10100 2200 0    50   ~ 0
 VBUS
 Wire Wire Line
 	10100 2700 10350 2700
-Text Label 9400 2700 0    50   ~ 0
-PA9-VBUS
 Wire Wire Line
 	9400 2700 9800 2700
 $Comp
@@ -665,13 +660,13 @@ Wire Wire Line
 Wire Wire Line
 	9800 2900 9400 2900
 Text Label 9400 2900 0    50   ~ 0
-PA12-DP
+DP
 Wire Wire Line
 	9800 3100 9400 3100
 Text Label 9400 3100 0    50   ~ 0
-PA11-DM
+DM
 Text Label 9400 3300 0    50   ~ 0
-PA10-ID
+ID
 Wire Wire Line
 	9800 3300 9400 3300
 $Comp
@@ -695,21 +690,21 @@ Wire Wire Line
 	11350 3400 11350 3500
 Connection ~ 11350 3500
 Text Label 12850 1300 0    50   ~ 0
-PC10-SDIO_D2
+SDIO_D2
 Wire Wire Line
 	13500 1300 12850 1300
 Wire Wire Line
 	13500 1400 12850 1400
 Text Label 12850 1400 0    50   ~ 0
-PC11-SDIO_D3
+SDIO_D3
 Wire Wire Line
 	12850 1500 13500 1500
 Text Label 12850 1500 0    50   ~ 0
-PD2-SDIO_CMD
+SDIO_CMD
 Wire Wire Line
 	13500 1700 12850 1700
 Text Label 12850 1700 0    50   ~ 0
-PC12-SIDO_CK
+SIDO_CK
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5DAB9CC9
@@ -746,13 +741,13 @@ $EndComp
 Wire Wire Line
 	12850 1900 13500 1900
 Text Label 12850 1900 0    50   ~ 0
-PC8-SDIO_D0
+SDIO_D0
 Wire Wire Line
 	12850 2000 13500 2000
 Text Label 12850 2000 0    50   ~ 0
-PC9-SDIO_D1
+SDIO_D1
 Text Label 12850 2100 0    50   ~ 0
-PA8-SDIO_SW
+SDIO_SW
 Wire Wire Line
 	13500 2100 12850 2100
 Text Notes 13700 2450 0    50   ~ 0
@@ -788,31 +783,31 @@ F 3 "~" H 10650 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9850 4600 0    50   ~ 0
-PC6-Y1
+Y1
 Text Label 9850 4700 0    50   ~ 0
-PC7-Y2
+Y2
 Text Label 9850 4800 0    50   ~ 0
-PB8-Y3
+Y3
 Text Label 9850 4900 0    50   ~ 0
-PB9-Y4
+Y4
 Text Label 9850 5000 0    50   ~ 0
-PB12-Y5
+Y5
 Text Label 9850 5100 0    50   ~ 0
-PB13-Y6
+Y6
 Text Label 9850 5200 0    50   ~ 0
-PB14-Y7
+Y7
 Text Label 9850 5300 0    50   ~ 0
-PB15-Y8
+Y8
 Text Label 9850 5750 0    50   ~ 0
-PB6-SCL-X9
+SCL
 Wire Wire Line
 	9850 5750 10450 5750
 Text Label 9850 5850 0    50   ~ 0
-PB7-SDA-X10
+SDA
 Text Label 9850 5950 0    50   ~ 0
-PC4-X11
+X11
 Text Label 9850 6050 0    50   ~ 0
-PC5-X12
+X12
 Text Label 9850 6150 0    50   ~ 0
 ~RST
 Wire Wire Line
@@ -835,15 +830,15 @@ F 3 "~" H 11500 4900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 12450 4600 2    50   ~ 0
-BOOT0-P1
+BOOT0
 Text Label 12450 4700 2    50   ~ 0
-PB4-BLU-P2
+BLU
 Text Label 12450 4800 2    50   ~ 0
-PA15-YEL-P3
+YEL
 Text Label 12450 4900 2    50   ~ 0
-PA14-GRN-P4
+GRN
 Text Label 12450 5000 2    50   ~ 0
-PA13-RED-P5
+RED
 Text Label 12450 5100 2    50   ~ 0
 VRSTIN
 Wire Wire Line
@@ -942,17 +937,17 @@ F 3 "" H 13000 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 12450 5750 2    50   ~ 0
-PB3-SW-X17
+SW
 Text Label 12450 5850 2    50   ~ 0
-PC13-X18
+X18
 Text Label 12450 5950 2    50   ~ 0
-PC0-X19
+X19
 Text Label 12450 6050 2    50   ~ 0
-PC1-X20
+X20
 Text Label 12450 6150 2    50   ~ 0
-PC2-X21
+X21
 Text Label 12450 6250 2    50   ~ 0
-PC3-X22
+X22
 $Comp
 L Connector_Generic:Conn_02x04_Counter_Clockwise J?
 U 1 1 5DA67734
@@ -1027,7 +1022,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 4350 1950 4350
 Text Label 1950 4350 0    50   ~ 0
-PD2-SDIO_CMD
+SDIO_CMD
 $Comp
 L Device:Crystal_Small Y?
 U 1 1 5DB1FFDE
@@ -1114,37 +1109,37 @@ $EndComp
 Wire Wire Line
 	5600 3050 5600 2900
 Text Label 1850 1200 0    50   ~ 0
-PA0-X1
+X1
 Text Label 1850 1300 0    50   ~ 0
-PA1-X2
+X2
 Text Label 1850 1400 0    50   ~ 0
-PA2-X3
+X3
 Text Label 1850 1500 0    50   ~ 0
-PA3-X4
+X4
 Text Label 1850 1600 0    50   ~ 0
-PA4-X5
+X5
 Text Label 1850 1700 0    50   ~ 0
-PA5-X6
+X6
 Text Label 1850 1800 0    50   ~ 0
-PA6-X7
+X7
 Text Label 1850 1900 0    50   ~ 0
-PA7-X8
+X8
 Text Label 1850 2000 0    50   ~ 0
-PA8-SDIO_SW
+SDIO_SW
 Text Label 1850 2100 0    50   ~ 0
-PA9-VBUS
+VBUS
 Text Label 1850 2200 0    50   ~ 0
-PA10-ID
+ID
 Text Label 1850 2300 0    50   ~ 0
-PA11-DM
+DM
 Text Label 1850 2400 0    50   ~ 0
-PA-12DP
+DP
 Text Label 1850 2500 0    50   ~ 0
-PA13-RED-P5
+RED
 Text Label 1850 2600 0    50   ~ 0
-PA14-GRN-P4
+GRN
 Text Label 1850 2700 0    50   ~ 0
-PA15-YEL-P3
+YEL
 Wire Wire Line
 	2550 1200 1850 1200
 Wire Wire Line
@@ -1255,69 +1250,69 @@ F 3 "https://www.st.com/resource/en/datasheet/dm00037051.pdf" H 3200 2650 50  00
 	1    0    0    -1  
 $EndComp
 Text Label 4950 4150 2    50   ~ 0
-PC13-X18
+X18
 Text Label 4950 4250 2    50   ~ 0
 N1
 Text Label 4950 4350 2    50   ~ 0
 N2
 Text Label 4950 1200 2    50   ~ 0
-PB0-Y11
+Y11
 Text Label 4950 1300 2    50   ~ 0
-PB1-Y12
+Y12
 Text Label 4950 1500 2    50   ~ 0
-PB3-SW-X17
+SW
 Text Label 4950 1600 2    50   ~ 0
-PB4-BLU-P2
+BLU
 Text Label 4950 1700 2    50   ~ 0
-PB5-MMA_AVDD
+MMA_AVDD
 Text Label 4950 1800 2    50   ~ 0
-PB6-SCL-X9
+SCL
 Text Label 4950 1900 2    50   ~ 0
-PB7-SDA-X10
+SDA
 Text Label 4950 2000 2    50   ~ 0
-PB8-Y3
+Y3
 Text Label 4950 2100 2    50   ~ 0
-PB9-Y4
+Y4
 Text Label 4950 2200 2    50   ~ 0
-PB10-Y9
+Y9
 Text Label 4950 2300 2    50   ~ 0
-PB11-Y10
+Y10
 Text Label 4950 2400 2    50   ~ 0
-PB12-Y5
+Y5
 Text Label 4950 2500 2    50   ~ 0
-PB13-Y6
+Y6
 Text Label 4950 2600 2    50   ~ 0
-PB14-Y7
+Y7
 Text Label 4950 2700 2    50   ~ 0
-PB15-Y8
+Y8
 Text Label 4950 2850 2    50   ~ 0
-PC0-X19
+X19
 Text Label 4950 2950 2    50   ~ 0
-PC1-X20
+X20
 Text Label 4950 3050 2    50   ~ 0
-PC2-X21
+X21
 Text Label 4950 3150 2    50   ~ 0
-PC3-X22
+X22
 Text Label 4950 3250 2    50   ~ 0
-PC4-X11
+X11
 Text Label 4950 3350 2    50   ~ 0
-PC5-X12
+X12
 Text Label 4950 3450 2    50   ~ 0
-PC6-Y1
+Y1
 Text Label 4950 3550 2    50   ~ 0
-PC7-Y2
+Y2
 Text Label 4950 3650 2    50   ~ 0
-PC8-SDIO_D0
+SDIO_D0
 Text Label 4950 3750 2    50   ~ 0
-PC9-SDIO_D1
+SDIO_D1
 Text Label 4950 3850 2    50   ~ 0
-PC10-SDIO_D2
+SDIO_D2
 Text Label 4950 3950 2    50   ~ 0
-PC11-SDIO_D3
+SDIO_D3
 Text Label 4950 4050 2    50   ~ 0
-PC12-SDIO_CK
+SDIO_CK
 Text Label 4950 1400 2    50   ~ 0
-PB2-BOOT1-MMA-INT
+BOOT1-MMA-INT
 Wire Wire Line
 	4950 1200 3850 1200
 Wire Wire Line
@@ -1621,13 +1616,13 @@ $EndComp
 Text Label 14050 4900 2    50   ~ 0
 ~RST
 Text Label 14050 5000 2    50   ~ 0
-PB1-Y12
+Y12
 Text Label 14050 5100 2    50   ~ 0
-PB0-Y11
+Y11
 Text Label 14050 5200 2    50   ~ 0
-PB11-Y10
+Y10
 Text Label 14050 5300 2    50   ~ 0
-PB10-Y9
+Y9
 $Comp
 L Connector_Generic:Conn_01x08 J?
 U 1 1 5DAC3CA3
@@ -1654,23 +1649,23 @@ Wire Wire Line
 Wire Wire Line
 	14050 5850 13550 5850
 Text Label 13750 6450 0    50   ~ 0
-PA0-X1
+X1
 Text Label 13750 6350 0    50   ~ 0
-PA1-X2
+X2
 Text Label 13750 6250 0    50   ~ 0
-PA2-X3
+X3
 Text Label 13750 6150 0    50   ~ 0
-PA3-X4
+X4
 Text Label 13750 6050 0    50   ~ 0
-PA4-X5
+X5
 Text Label 13750 5950 0    50   ~ 0
-PA5-X6
+X6
 Text Label 13750 5850 0    50   ~ 0
-PA6-X7
+X7
 Wire Wire Line
 	13550 5750 14050 5750
 Text Label 13750 5750 0    50   ~ 0
-PA7-X8
+X8
 $Comp
 L Connector_Generic:Conn_01x08 J?
 U 1 1 5DBF32A7
@@ -2154,19 +2149,19 @@ $EndComp
 Wire Wire Line
 	13900 8600 13250 8600
 Text Label 13250 8600 0    50   ~ 0
-PB4-BLU-P2
+BLU
 Wire Wire Line
 	13900 8250 13250 8250
 Text Label 13250 8250 0    50   ~ 0
-PA15-YEL-P3
+YEL
 Wire Wire Line
 	13900 7900 13250 7900
 Text Label 13250 7900 0    50   ~ 0
-PA14-GRN-P4
+GRN
 Wire Wire Line
 	13900 7550 13250 7550
 Text Label 13250 7550 0    50   ~ 0
-PA13-RED-P5
+RED
 Text Label 14350 8600 0    50   ~ 0
 B
 Text Label 14350 8250 0    50   ~ 0
@@ -2274,9 +2269,9 @@ $EndComp
 Wire Wire Line
 	9050 8400 10200 8400
 Text Label 9050 8400 0    50   ~ 0
-PB2-BOOT1-MMA-INT
+BOOT1-MMA-INT
 Text Label 12150 8300 0    50   ~ 0
-PB7-SDA
+SDA
 Wire Wire Line
 	11900 7650 11900 8100
 Connection ~ 11900 7650
@@ -2285,7 +2280,7 @@ Wire Wire Line
 Wire Wire Line
 	11900 7550 11900 7650
 Text Label 12150 8400 0    50   ~ 0
-PB6-SCL
+SCL
 Connection ~ 11700 8200
 Wire Wire Line
 	11700 8200 11700 8600
@@ -2336,7 +2331,7 @@ F 3 "" H 11900 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9700 7600 0    50   ~ 0
-PB5-MMA_AVDD
+MMA_AVDD
 Wire Wire Line
 	11700 8200 11500 8200
 Wire Wire Line
@@ -2420,4 +2415,6 @@ Wire Notes Line
 	8900 11150 8900 9300
 Text Notes 8900 9300 0    100  ~ 0
 Programmable button
+Text Label 9400 2700 0    50   ~ 0
+VBUS
 $EndSCHEMATC
