@@ -1,4 +1,4 @@
-update=Tue 24 Sep 2019 12:10:27 AM +03
+update=Wed 25 Sep 2019 02:06:36 PM +03
 version=1
 last_client=kicad
 [general]
@@ -37,7 +37,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
