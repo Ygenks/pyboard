@@ -1979,10 +1979,10 @@ $Comp
 L Connector:USB_B_Micro J6
 U 1 1 5D8179A9
 P 11750 3000
-F 0 "J6" H 11807 3467 50  0000 C CNN
-F 1 "USB_B_Micro" H 11807 3376 50  0000 C CNN
+F 0 "J6" H 11750 3450 50  0000 C CNN
+F 1 "USB_B_Micro" H 11750 3350 50  0000 C CNN
 F 2 "components:USB_Micro-B_10118192-0001LF" H 11900 2950 50  0001 C CNN
-F 3 "~" H 11900 2950 50  0001 C CNN
+F 3 "https://belchip.by/sitedocs/34170.pdf" H 11900 2950 50  0001 C CNN
 	1    11750 3000
 	-1   0    0    -1  
 $EndComp
@@ -2095,9 +2095,9 @@ L Connector:Micro_SD_Card_Det J9
 U 1 1 5D80F0E7
 P 14660 1700
 F 0 "J9" H 14610 2517 50  0000 C CNN
-F 1 "Micro_SD_Card_Det" H 14610 2426 50  0000 C CNN
-F 2 "" H 16710 2400 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 14660 1800 50  0001 C CNN
+F 1 "Micro_SD_SCHA5B0200" H 14610 2426 50  0000 C CNN
+F 2 "components:microSD_HC_SCHA5B0200" H 16710 2400 50  0001 C CNN
+F 3 "https://belchip.by/product/?selected_product=04939" H 14660 1800 50  0001 C CNN
 	1    14660 1700
 	1    0    0    -1  
 $EndComp
@@ -2155,8 +2155,6 @@ F 3 "" H 15610 2300 50  0001 C CNN
 	1    15610 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 13960 2450 0    50   ~ 0
-Which detection line should be used???\n
 Wire Wire Line
 	13760 2100 13110 2100
 Text Label 13110 2100 0    50   ~ 0
@@ -2482,4 +2480,6 @@ F 3 "~" H 8600 1400 50  0001 C CNN
 	1    8600 1400
 	1    0    0    -1  
 $EndComp
+Text Notes 13960 2450 0    50   ~ 0
+Which detection line should be used???\n
 $EndSCHEMATC
