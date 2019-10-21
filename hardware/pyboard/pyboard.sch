@@ -2251,8 +2251,6 @@ Text Label 19450 5450 0    50   ~ 0
 GRN
 Text Label 19450 5550 0    50   ~ 0
 RED
-Text Label 19450 5650 0    50   ~ 0
-VRSTIN
 Wire Wire Line
 	19850 5150 19450 5150
 Wire Wire Line
@@ -2508,4 +2506,5 @@ Wire Notes Line
 	22100 8000 22100 4000
 Text Notes 21550 4000 0    100  ~ 0
 Shield\n
+NoConn ~ 19450 5650
 $EndSCHEMATC
