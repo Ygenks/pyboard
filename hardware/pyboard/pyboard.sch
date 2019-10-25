@@ -205,8 +205,6 @@ F 3 "" H 4700 14550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 14350 4700 14550
-NoConn ~ 4900 14350
-NoConn ~ 4900 13950
 Wire Wire Line
 	4700 13550 4700 13950
 Text Label 4700 13900 1    50   ~ 0
@@ -1390,7 +1388,7 @@ F 3 "~" H 4700 13400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW2
+L Switch:SW_Push SW2
 U 1 1 5D8FF238
 P 4700 14150
 F 0 "SW2" V 4750 14300 50  0000 L CNN
@@ -2047,10 +2045,8 @@ Text Notes 15660 2700 0    50   ~ 0
 Which detection line should be used???\n
 Wire Wire Line
 	11550 1800 11800 1800
-NoConn ~ 1900 7550
-NoConn ~ 1900 7950
 $Comp
-L Switch:SW_Push_Dual SW1
+L Switch:SW_Push SW1
 U 1 1 5DCFF317
 P 1700 7750
 F 0 "SW1" V 1750 7900 50  0000 L CNN
@@ -2507,4 +2503,12 @@ Wire Notes Line
 Text Notes 21550 4000 0    100  ~ 0
 Shield\n
 NoConn ~ 19450 5650
+Text Label 11850 3050 0    50   ~ 0
+VBUS_USB
+Text Label 11850 3250 0    50   ~ 0
+DP_USB
+Text Label 11850 3350 0    50   ~ 0
+DM_USB
+Text Label 11850 3450 0    50   ~ 0
+ID_USB
 $EndSCHEMATC
