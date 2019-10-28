@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pyboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -228,23 +229,19 @@ Text Label 19450 4750 0    50   ~ 0
 Y7
 Text Label 19450 4850 0    50   ~ 0
 Y8
-Text Label 15450 5350 0    50   ~ 0
-SCL
-Text Label 15450 5450 0    50   ~ 0
-SDA
-Text Label 17450 4650 0    50   ~ 0
-X11
-Text Label 17450 4750 0    50   ~ 0
-X12
-Text Label 19450 5050 0    50   ~ 0
-BOOT0
-Text Label 19450 5150 0    50   ~ 0
-SW
 Text Label 17450 4950 0    50   ~ 0
-X20
+X11
 Text Label 17450 5050 0    50   ~ 0
+X12
+Text Label 19450 5550 0    50   ~ 0
+BOOT0
+Text Label 19450 5450 0    50   ~ 0
+SW
+Text Label 17450 5250 0    50   ~ 0
+X20
+Text Label 17450 5350 0    50   ~ 0
 X21
-Text Label 17450 5150 0    50   ~ 0
+Text Label 17450 5450 0    50   ~ 0
 X22
 Wire Wire Line
 	2550 4600 1950 4600
@@ -562,7 +559,7 @@ Wire Wire Line
 	3850 4200 5600 4200
 Wire Wire Line
 	4700 13150 5450 13150
-Text Label 17450 5350 0    50   ~ 0
+Text Label 17450 5650 0    50   ~ 0
 Y12
 Text Label 15550 5250 2    50   ~ 0
 Y9
@@ -570,10 +567,8 @@ Text Label 17450 4350 0    50   ~ 0
 X1
 Text Label 17450 4450 0    50   ~ 0
 X2
-Text Label 15450 4850 0    50   ~ 0
+Text Label 15450 5050 0    50   ~ 0
 X3
-Text Label 15450 4750 0    50   ~ 0
-X4
 Wire Wire Line
 	6250 1400 6250 1550
 Wire Wire Line
@@ -2079,24 +2074,24 @@ Wire Wire Line
 	15850 5450 15450 5450
 Text Label 15450 5150 0    50   ~ 0
 Y10
-Text Label 17450 5250 0    50   ~ 0
+Text Label 17450 5550 0    50   ~ 0
 Y11
 Text Label 17450 4550 0    50   ~ 0
 X5
 Wire Wire Line
 	17850 5950 17450 5950
 Wire Wire Line
+	17850 5550 17450 5550
+Wire Wire Line
+	17850 5450 17450 5450
+Wire Wire Line
 	17850 5250 17450 5250
 Wire Wire Line
 	17850 5150 17450 5150
 Wire Wire Line
+	17850 5050 17450 5050
+Wire Wire Line
 	17850 4950 17450 4950
-Wire Wire Line
-	17850 4850 17450 4850
-Wire Wire Line
-	17850 4750 17450 4750
-Wire Wire Line
-	17850 4650 17450 4650
 Wire Wire Line
 	17850 4550 17450 4550
 Wire Wire Line
@@ -2105,12 +2100,6 @@ Wire Wire Line
 	17850 5750 17450 5750
 Wire Wire Line
 	17850 5650 17450 5650
-Wire Wire Line
-	17850 5550 17450 5550
-Wire Wire Line
-	17850 5450 17450 5450
-Wire Wire Line
-	17850 5350 17450 5350
 Wire Wire Line
 	17850 4450 17450 4450
 Wire Wire Line
@@ -2127,8 +2116,8 @@ F 3 "" H 16700 4300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17850 5050 17450 5050
-Text Label 17450 4850 0    50   ~ 0
+	17850 5350 17450 5350
+Text Label 17450 5150 0    50   ~ 0
 X19
 Text Label 19450 4950 0    50   ~ 0
 X18
@@ -2231,20 +2220,14 @@ Text Label 19450 5250 0    50   ~ 0
 BLU
 Text Label 19450 5350 0    50   ~ 0
 YEL
-Text Label 19450 5450 0    50   ~ 0
+Text Label 19450 5150 0    50   ~ 0
 GRN
-Text Label 19450 5550 0    50   ~ 0
+Text Label 19450 5050 0    50   ~ 0
 RED
 Wire Wire Line
 	19850 5150 19450 5150
 Wire Wire Line
 	17850 7150 17450 7150
-Wire Wire Line
-	17850 7050 17450 7050
-Wire Wire Line
-	17850 6950 17450 6950
-Wire Wire Line
-	17850 6850 17450 6850
 $Comp
 L components:Arduino_Mega2560_Shield J2
 U 5 1 5DD97C89
@@ -2256,12 +2239,6 @@ F 3 "" H 16700 6200 60  0001 C CNN
 	5    18550 7100
 	1    0    0    -1  
 $EndComp
-Text Label 17450 6950 0    50   ~ 0
-X8
-Text Label 17450 6850 0    50   ~ 0
-X7
-Text Label 17450 7050 0    50   ~ 0
-X6
 $Comp
 L components:Arduino_Mega2560_Shield J2
 U 3 1 5F4CFE81
@@ -2400,14 +2377,9 @@ F 3 "" H 14600 6250 50  0001 C CNN
 $EndComp
 NoConn ~ 15450 4550
 NoConn ~ 15450 4650
-NoConn ~ 15450 4950
-NoConn ~ 15450 5050
 Wire Wire Line
 	15850 5250 15450 5250
 NoConn ~ 17450 7150
-NoConn ~ 17450 5450
-NoConn ~ 17450 5550
-NoConn ~ 17450 5650
 NoConn ~ 17450 5750
 NoConn ~ 17450 5850
 NoConn ~ 17450 5950
@@ -2450,36 +2422,6 @@ NoConn ~ 19450 7100
 Wire Wire Line
 	19850 5750 19450 5750
 NoConn ~ 19450 5750
-$Comp
-L power:GND #PWR041
-U 1 1 6093DD55
-P 17200 7600
-F 0 "#PWR041" H 17200 7350 50  0001 C CNN
-F 1 "GND" H 17205 7427 50  0000 C CNN
-F 2 "" H 17200 7600 50  0001 C CNN
-F 3 "" H 17200 7600 50  0001 C CNN
-	1    17200 7600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	17200 7450 17200 7600
-$Comp
-L power:+3.3V #PWR040
-U 1 1 60A1EB17
-P 17200 7300
-F 0 "#PWR040" H 17200 7150 50  0001 C CNN
-F 1 "+3.3V" H 17200 7450 50  0000 C CNN
-F 2 "" H 17200 7300 50  0001 C CNN
-F 3 "" H 17200 7300 50  0001 C CNN
-	1    17200 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	17200 7450 17850 7450
-Wire Wire Line
-	17200 7350 17200 7300
-Wire Wire Line
-	17200 7350 17850 7350
 Wire Notes Line
 	22100 4000 14000 4000
 Wire Notes Line
@@ -2512,4 +2454,39 @@ F 3 "~" H 10550 1750 50  0001 C CNN
 $EndComp
 Text Notes 9350 9750 0    50   ~ 0
 Probably wrong resistor values
+Text Label 15450 5450 0    50   ~ 0
+SDA
+Text Label 15450 5350 0    50   ~ 0
+SCL
+Wire Wire Line
+	17850 7450 17450 7450
+Wire Wire Line
+	17850 7350 17450 7350
+Wire Wire Line
+	17850 6950 17450 6950
+Wire Wire Line
+	17850 6850 17450 6850
+Wire Wire Line
+	17850 7050 17450 7050
+NoConn ~ 17450 6850
+NoConn ~ 17450 6950
+NoConn ~ 17450 7050
+NoConn ~ 17450 7350
+NoConn ~ 17450 7450
+Text Label 15450 4950 0    50   ~ 0
+X4
+Wire Wire Line
+	17850 4850 17450 4850
+Wire Wire Line
+	17850 4750 17450 4750
+Wire Wire Line
+	17850 4650 17450 4650
+Text Label 17450 4650 0    50   ~ 0
+X6
+Text Label 17450 4750 0    50   ~ 0
+X7
+Text Label 17450 4850 0    50   ~ 0
+X8
+NoConn ~ 15450 4750
+NoConn ~ 15450 4850
 $EndSCHEMATC
