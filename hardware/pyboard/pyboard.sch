@@ -233,9 +233,7 @@ Text Label 17450 4950 0    50   ~ 0
 X11
 Text Label 17450 5050 0    50   ~ 0
 X12
-Text Label 19450 5550 0    50   ~ 0
-BOOT0
-Text Label 19450 5450 0    50   ~ 0
+Text Label 19450 5350 0    50   ~ 0
 SW
 Text Label 17450 5250 0    50   ~ 0
 X20
@@ -2119,14 +2117,10 @@ Wire Wire Line
 	17850 5350 17450 5350
 Text Label 17450 5150 0    50   ~ 0
 X19
-Text Label 19450 4950 0    50   ~ 0
-X18
 Wire Wire Line
 	19850 5950 19450 5950
 Wire Wire Line
-	19850 5250 19450 5250
-Wire Wire Line
-	19850 4950 19450 4950
+	19850 5150 19450 5150
 Wire Wire Line
 	19850 4850 19450 4850
 Wire Wire Line
@@ -2140,17 +2134,15 @@ Wire Wire Line
 Wire Wire Line
 	19850 5650 19450 5650
 Wire Wire Line
-	19850 5550 19450 5550
-Wire Wire Line
-	19850 5450 19450 5450
-Wire Wire Line
 	19850 5350 19450 5350
+Wire Wire Line
+	19850 5250 19450 5250
 Wire Wire Line
 	19850 4450 19450 4450
 Wire Wire Line
 	19850 4350 19450 4350
 Wire Wire Line
-	19850 5050 19450 5050
+	19850 4950 19450 4950
 Wire Wire Line
 	21850 5950 21450 5950
 Wire Wire Line
@@ -2216,16 +2208,16 @@ Wire Wire Line
 	21850 6150 21450 6150
 Wire Wire Line
 	21850 6050 21450 6050
-Text Label 19450 5250 0    50   ~ 0
-BLU
-Text Label 19450 5350 0    50   ~ 0
-YEL
 Text Label 19450 5150 0    50   ~ 0
-GRN
+BLU
+Text Label 19450 5250 0    50   ~ 0
+YEL
 Text Label 19450 5050 0    50   ~ 0
+GRN
+Text Label 19450 4950 0    50   ~ 0
 RED
 Wire Wire Line
-	19850 5150 19450 5150
+	19850 5050 19450 5050
 Wire Wire Line
 	17850 7150 17450 7150
 $Comp
@@ -2489,4 +2481,15 @@ Text Label 17450 4850 0    50   ~ 0
 X8
 NoConn ~ 15450 4750
 NoConn ~ 15450 4850
+Text Label 19450 7200 0    50   ~ 0
+X18
+Wire Wire Line
+	19850 7200 19450 7200
+Text Label 19450 5450 0    50   ~ 0
+BOOT0
+Wire Wire Line
+	19850 5450 19450 5450
+Wire Wire Line
+	19850 5550 19450 5550
+NoConn ~ 19450 5550
 $EndSCHEMATC
