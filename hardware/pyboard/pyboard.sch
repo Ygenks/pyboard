@@ -1632,15 +1632,9 @@ Wire Wire Line
 Wire Wire Line
 	11400 3450 11400 3550
 Wire Wire Line
-	12250 3450 11400 3450
-Wire Wire Line
 	11400 3150 11300 3150
 Wire Wire Line
 	11400 3250 11400 3150
-Wire Wire Line
-	12250 3250 11400 3250
-Wire Wire Line
-	12250 3350 11300 3350
 Wire Wire Line
 	10600 2950 11000 2950
 Wire Wire Line
@@ -2492,4 +2486,12 @@ Wire Wire Line
 Wire Wire Line
 	19850 5550 19450 5550
 NoConn ~ 19450 5550
+Wire Wire Line
+	12250 3250 11400 3250
+Wire Wire Line
+	11300 3350 12250 3350
+Wire Wire Line
+	12250 3450 11400 3450
+Text Notes 11350 3900 0    50   ~ 0
+Add RC filter to the shield\n
 $EndSCHEMATC
