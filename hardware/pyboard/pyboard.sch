@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:pyboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -1593,28 +1592,6 @@ Text Label 10600 2950 0    50   ~ 0
 VBUS
 Text Notes 12170 990  0    100  ~ 0
 MicroUSB
-Wire Notes Line
-	12850 1000 12850 4110
-Connection ~ 12550 3750
-Wire Wire Line
-	12550 3650 12550 3750
-Wire Wire Line
-	12550 3750 12550 3800
-Wire Wire Line
-	12650 3750 12550 3750
-Wire Wire Line
-	12650 3650 12650 3750
-$Comp
-L power:GND #PWR033
-U 1 1 5DA823F4
-P 12550 3800
-F 0 "#PWR033" H 12550 3550 50  0001 C CNN
-F 1 "GND" H 12555 3627 50  0000 C CNN
-F 2 "" H 12550 3800 50  0001 C CNN
-F 3 "" H 12550 3800 50  0001 C CNN
-	1    12550 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11000 3550 10600 3550
 Text Label 10600 3550 0    50   ~ 0
@@ -1976,8 +1953,6 @@ Wire Wire Line
 	11200 1500 11200 1550
 Wire Wire Line
 	11350 1400 11100 1400
-Wire Notes Line
-	12850 4100 9000 4100
 Wire Notes Line
 	9000 4100 9000 1000
 Wire Notes Line
@@ -2420,13 +2395,11 @@ Text Notes 21550 4000 0    100  ~ 0
 Shield\n
 NoConn ~ 19450 5650
 Text Label 11850 3050 0    50   ~ 0
-VBUS_USB
-Text Label 11850 3250 0    50   ~ 0
-DP_USB
+USB_VBUS
 Text Label 11850 3350 0    50   ~ 0
-DM_USB
+USB_D-
 Text Label 11850 3450 0    50   ~ 0
-ID_USB
+USB_ID
 $Comp
 L Device:LED_ALT D1
 U 1 1 5E3D49BE
@@ -2492,6 +2465,32 @@ Wire Wire Line
 	11300 3350 12250 3350
 Wire Wire Line
 	12250 3450 11400 3450
+Wire Notes Line
+	12850 1000 12850 4110
+$Comp
+L power:GND #PWR033
+U 1 1 5DA823F4
+P 12550 3800
+F 0 "#PWR033" H 12550 3550 50  0001 C CNN
+F 1 "GND" H 12555 3627 50  0000 C CNN
+F 2 "" H 12550 3800 50  0001 C CNN
+F 3 "" H 12550 3800 50  0001 C CNN
+	1    12550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12650 3650 12650 3750
+Wire Wire Line
+	12650 3750 12550 3750
+Wire Wire Line
+	12550 3750 12550 3800
+Connection ~ 12550 3750
+Wire Wire Line
+	12550 3650 12550 3750
 Text Notes 11350 3900 0    50   ~ 0
 Add RC filter to the shield\n
+Wire Notes Line
+	12850 4100 9000 4100
+Text Label 11850 3250 0    50   ~ 0
+USB_D+
 $EndSCHEMATC
