@@ -2394,12 +2394,6 @@ Wire Notes Line
 Text Notes 21550 4000 0    100  ~ 0
 Shield\n
 NoConn ~ 19450 5650
-Text Label 11850 3050 0    50   ~ 0
-USB_VBUS
-Text Label 11850 3350 0    50   ~ 0
-USB_D-
-Text Label 11850 3450 0    50   ~ 0
-USB_ID
 $Comp
 L Device:LED_ALT D1
 U 1 1 5E3D49BE
@@ -2491,6 +2485,12 @@ Text Notes 11350 3900 0    50   ~ 0
 Add RC filter to the shield\n
 Wire Notes Line
 	12850 4100 9000 4100
+Text Label 11850 3450 0    50   ~ 0
+USB_ID
+Text Label 11850 3050 0    50   ~ 0
+USB_VBUS
 Text Label 11850 3250 0    50   ~ 0
 USB_D+
+Text Label 11850 3350 0    50   ~ 0
+USB_D-
 $EndSCHEMATC
