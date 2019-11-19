@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pyboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -308,9 +309,7 @@ VBUS
 Text Label 1850 2450 0    50   ~ 0
 ID
 Text Label 1850 2550 0    50   ~ 0
-DM
-Text Label 1850 2650 0    50   ~ 0
-DP
+D-
 Text Label 1850 2750 0    50   ~ 0
 RED
 Text Label 1850 2850 0    50   ~ 0
@@ -1597,11 +1596,11 @@ Wire Wire Line
 Text Label 10600 3550 0    50   ~ 0
 ID
 Text Label 10600 3350 0    50   ~ 0
-DM
+D-
 Wire Wire Line
 	11000 3350 10600 3350
 Text Label 10600 3150 0    50   ~ 0
-DP
+D+
 Wire Wire Line
 	11000 3150 10600 3150
 Wire Wire Line
@@ -2493,4 +2492,6 @@ Text Label 11850 3250 0    50   ~ 0
 USB_D+
 Text Label 11850 3350 0    50   ~ 0
 USB_D-
+Text Label 1850 2650 0    50   ~ 0
+D+
 $EndSCHEMATC
