@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:pyboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -229,17 +228,17 @@ Text Label 19450 4750 0    50   ~ 0
 Y7
 Text Label 19450 4850 0    50   ~ 0
 Y8
-Text Label 17450 4950 0    50   ~ 0
+Text Label 19450 6150 0    50   ~ 0
 X11
-Text Label 17450 5050 0    50   ~ 0
+Text Label 19450 5950 0    50   ~ 0
 X12
 Text Label 19450 5350 0    50   ~ 0
 SW
-Text Label 17450 5250 0    50   ~ 0
+Text Label 17450 4450 0    50   ~ 0
 X20
-Text Label 17450 5350 0    50   ~ 0
+Text Label 17450 4550 0    50   ~ 0
 X21
-Text Label 17450 5450 0    50   ~ 0
+Text Label 17450 4650 0    50   ~ 0
 X22
 Wire Wire Line
 	2550 4600 1950 4600
@@ -555,15 +554,15 @@ Wire Wire Line
 	3850 4200 5600 4200
 Wire Wire Line
 	4700 13150 5450 13150
-Text Label 17450 5650 0    50   ~ 0
+Text Label 19450 5550 0    50   ~ 0
 Y12
 Text Label 15550 5250 2    50   ~ 0
 Y9
-Text Label 17450 4350 0    50   ~ 0
+Text Label 17450 4750 0    50   ~ 0
 X1
-Text Label 17450 4450 0    50   ~ 0
+Text Label 17450 4850 0    50   ~ 0
 X2
-Text Label 15450 5050 0    50   ~ 0
+Text Label 17450 4950 0    50   ~ 0
 X3
 Wire Wire Line
 	6250 1400 6250 1550
@@ -2040,16 +2039,14 @@ Wire Wire Line
 	15850 5450 15450 5450
 Text Label 15450 5150 0    50   ~ 0
 Y10
-Text Label 17450 5550 0    50   ~ 0
+Text Label 19450 5750 0    50   ~ 0
 Y11
-Text Label 17450 4550 0    50   ~ 0
+Text Label 21850 4750 2    50   ~ 0
 X5
 Wire Wire Line
 	17850 5950 17450 5950
 Wire Wire Line
 	17850 5550 17450 5550
-Wire Wire Line
-	17850 5450 17450 5450
 Wire Wire Line
 	17850 5250 17450 5250
 Wire Wire Line
@@ -2083,7 +2080,7 @@ F 3 "" H 16700 4300 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	17850 5350 17450 5350
-Text Label 17450 5150 0    50   ~ 0
+Text Label 17450 4350 0    50   ~ 0
 X19
 Wire Wire Line
 	19850 5950 19450 5950
@@ -2122,11 +2119,11 @@ Wire Wire Line
 Wire Wire Line
 	21850 4850 21450 4850
 Wire Wire Line
-	21850 4750 21450 4750
+	21450 4750 21850 4750
 Wire Wire Line
-	21850 4650 21450 4650
+	21450 4650 21850 4650
 Wire Wire Line
-	21850 4550 21450 4550
+	21450 4550 21850 4550
 Wire Wire Line
 	21850 5850 21450 5850
 Wire Wire Line
@@ -2142,7 +2139,7 @@ Wire Wire Line
 Wire Wire Line
 	21850 4450 21450 4450
 Wire Wire Line
-	21850 4350 21450 4350
+	21450 4350 21850 4350
 Wire Wire Line
 	21850 5050 21450 5050
 Wire Wire Line
@@ -2340,21 +2337,8 @@ NoConn ~ 15450 4650
 Wire Wire Line
 	15850 5250 15450 5250
 NoConn ~ 17450 7150
-NoConn ~ 17450 5750
-NoConn ~ 17450 5850
 NoConn ~ 17450 5950
-NoConn ~ 19450 5850
-NoConn ~ 19450 5950
-NoConn ~ 19450 6050
-NoConn ~ 19450 6150
-NoConn ~ 19450 6250
-NoConn ~ 19450 6350
-NoConn ~ 19450 6450
-NoConn ~ 21850 4350
 NoConn ~ 21850 4450
-NoConn ~ 21850 4550
-NoConn ~ 21850 4650
-NoConn ~ 21850 4750
 NoConn ~ 21850 4850
 NoConn ~ 21850 4950
 NoConn ~ 21850 5050
@@ -2381,7 +2365,6 @@ Text Label 19450 7000 0    50   ~ 0
 NoConn ~ 19450 7100
 Wire Wire Line
 	19850 5750 19450 5750
-NoConn ~ 19450 5750
 Wire Notes Line
 	22100 4000 14000 4000
 Wire Notes Line
@@ -2392,7 +2375,6 @@ Wire Notes Line
 	22100 8000 22100 4000
 Text Notes 21550 4000 0    100  ~ 0
 Shield\n
-NoConn ~ 19450 5650
 $Comp
 L Device:LED_ALT D1
 U 1 1 5E3D49BE
@@ -2425,7 +2407,7 @@ NoConn ~ 17450 6950
 NoConn ~ 17450 7050
 NoConn ~ 17450 7350
 NoConn ~ 17450 7450
-Text Label 15450 4950 0    50   ~ 0
+Text Label 17450 5050 0    50   ~ 0
 X4
 Wire Wire Line
 	17850 4850 17450 4850
@@ -2433,11 +2415,9 @@ Wire Wire Line
 	17850 4750 17450 4750
 Wire Wire Line
 	17850 4650 17450 4650
-Text Label 17450 4650 0    50   ~ 0
+Text Label 21850 4550 2    50   ~ 0
 X6
-Text Label 17450 4750 0    50   ~ 0
-X7
-Text Label 17450 4850 0    50   ~ 0
+Text Label 19450 6350 0    50   ~ 0
 X8
 NoConn ~ 15450 4750
 NoConn ~ 15450 4850
@@ -2449,9 +2429,6 @@ Text Label 19450 5450 0    50   ~ 0
 BOOT0
 Wire Wire Line
 	19850 5450 19450 5450
-Wire Wire Line
-	19850 5550 19450 5550
-NoConn ~ 19450 5550
 Wire Wire Line
 	12250 3250 11400 3250
 Wire Wire Line
@@ -2494,4 +2471,28 @@ Text Label 11850 3350 0    50   ~ 0
 USB_D-
 Text Label 1850 2650 0    50   ~ 0
 D+
+Text Notes 17250 4100 0    50   ~ 0
+Move pins for bottom line\n
+NoConn ~ 15450 4950
+NoConn ~ 15450 5050
+Wire Wire Line
+	19850 5550 19450 5550
+Text Label 21850 4350 2    50   ~ 0
+X7
+Wire Wire Line
+	17850 5450 17450 5450
+NoConn ~ 21850 4650
+NoConn ~ 19450 5650
+NoConn ~ 19450 5850
+NoConn ~ 19450 6050
+NoConn ~ 19450 6250
+NoConn ~ 19450 6450
+NoConn ~ 17450 5150
+NoConn ~ 17450 5250
+NoConn ~ 17450 5350
+NoConn ~ 17450 5450
+NoConn ~ 17450 5550
+NoConn ~ 17450 5650
+NoConn ~ 17450 5750
+NoConn ~ 17450 5850
 $EndSCHEMATC
