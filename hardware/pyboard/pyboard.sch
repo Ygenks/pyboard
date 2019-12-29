@@ -1042,7 +1042,7 @@ P 10900 8350
 F 0 "D3" H 10893 8566 50  0000 C CNN
 F 1 "LED_RED" H 10893 8475 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 10900 8350 50  0001 C CNN
-F 3 "https://belchip.by/product/?selected_product=34186" H 10900 8350 50  0001 C CNN
+F 3 "https://belchip.by/product/?selected_product=36609" H 10900 8350 50  0001 C CNN
 	1    10900 8350
 	-1   0    0    -1  
 $EndComp
@@ -1053,7 +1053,7 @@ P 10900 8700
 F 0 "D4" H 10893 8916 50  0000 C CNN
 F 1 "LED_GREEN" H 10893 8825 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 10900 8700 50  0001 C CNN
-F 3 "~" H 10900 8700 50  0001 C CNN
+F 3 "https://belchip.by/product/?selected_product=37808" H 10900 8700 50  0001 C CNN
 	1    10900 8700
 	-1   0    0    -1  
 $EndComp
@@ -1227,9 +1227,9 @@ L Device:Ferrite_Bead FB1
 U 1 1 5D8BB4E5
 P 2350 11350
 F 0 "FB1" V 2624 11350 50  0000 C CNN
-F 1 "1k" V 2533 11350 50  0000 C CNN
+F 1 "1.5k" V 2533 11350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 11350 50  0001 C CNN
-F 3 "~" H 2350 11350 50  0001 C CNN
+F 3 "https://belchip.by/product/?selected_product=17913" H 2350 11350 50  0001 C CNN
 	1    2350 11350
 	0    -1   -1   0   
 $EndComp
@@ -1383,7 +1383,7 @@ P 4700 14150
 F 0 "SW2" V 4750 14300 50  0000 L CNN
 F 1 "USR" V 4650 14300 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 4700 14350 50  0001 C CNN
-F 3 "~" H 4700 14350 50  0001 C CNN
+F 3 "https://belchip.by/product/?selected_product=03265" H 4700 14350 50  0001 C CNN
 	1    4700 14150
 	0    -1   -1   0   
 $EndComp
@@ -1807,9 +1807,9 @@ L Device:D D2
 U 1 1 5DCDA094
 P 12000 2550
 F 0 "D2" H 12000 2450 50  0000 C CNN
-F 1 "MSE1PB-M3/89A" H 12000 2350 50  0000 C CNN
+F 1 "PMEG6010CEH" H 12000 2350 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123F" H 12000 2550 50  0001 C CNN
-F 3 "~" H 12000 2550 50  0001 C CNN
+F 3 "https://static.chipdip.ru/lib/583/DOC001583123.pdf" H 12000 2550 50  0001 C CNN
 	1    12000 2550
 	-1   0    0    -1  
 $EndComp
@@ -1930,7 +1930,7 @@ P 10900 1400
 F 0 "J1" H 10818 1617 50  0000 C CNN
 F 1 "Battery" H 10818 1526 50  0000 C CNN
 F 2 "components:CH224-2032LF" H 10900 1400 50  0001 C CNN
-F 3 "~" H 10900 1400 50  0001 C CNN
+F 3 "https://www.chipdip.by/product/bh-642" H 10900 1400 50  0001 C CNN
 	1    10900 1400
 	-1   0    0    -1  
 $EndComp
@@ -2000,7 +2000,7 @@ P 1700 7750
 F 0 "SW1" V 1750 7900 50  0000 L CNN
 F 1 "RST" V 1650 7900 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 1700 7950 50  0001 C CNN
-F 3 "~" H 1700 7950 50  0001 C CNN
+F 3 "https://belchip.by/product/?selected_product=03265" H 1700 7950 50  0001 C CNN
 	1    1700 7750
 	0    -1   -1   0   
 $EndComp
@@ -2362,7 +2362,7 @@ P 10550 1750
 F 0 "D1" V 10589 1633 50  0000 R CNN
 F 1 "OC_RED" V 10498 1633 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 10550 1750 50  0001 C CNN
-F 3 "~" H 10550 1750 50  0001 C CNN
+F 3 "https://belchip.by/product/?selected_product=36609" H 10550 1750 50  0001 C CNN
 	1    10550 1750
 	0    -1   -1   0   
 $EndComp
